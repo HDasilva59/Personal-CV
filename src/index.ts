@@ -14,9 +14,9 @@ nunjucks.configure("views", {
 app.set("view engine", "njk");
 
 app.get("/", (request, response) => {
-  response.send("");
+  response.send("home-page");
 });
 
-app.listen(3000, () => {
-  console.log("http://localhost:3000");
+app.listen(2500, () => {
+  console.log("http://localhost:2500");
 });
