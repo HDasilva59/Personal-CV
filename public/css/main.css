@@ -1,3 +1,73 @@
-.navbar{
-    background-color: blue;
+body{
+    background: radial-gradient(circle, #24246E, #06051F);
+    font-family: "Exo", sans-serif;
 }
+
+#FlexBoxContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-top: 0%;
+}
+
+#FlexBoxContainer a{
+    color: white;
+    text-decoration: none;
+}
+
+.item{
+    padding: 0.5em;
+    justify-items: right;
+}
+
+footer{
+    width: 100vw;
+    padding: 5vw 5vh;
+    background-color: black;
+}
+
+footer>div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90vw;
+}
+
+footer>div form{
+    width: 60%;
+    padding: 0 5vw;
+}
+
+footer>div form input, footer>div form textarea{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+footer>div form button{
+    background-color: white;
+    padding: 5px 40px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+footer>div>div{
+    color: white;
+    width: 70%;
+}
+footer>div{
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 70vw;
+    }
+
+footer>div>form{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    footer>div>div{
+        margin: auto;
+    }

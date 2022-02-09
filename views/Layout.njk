@@ -8,18 +8,31 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <header>
-    <div>
-        <ul>
-            <li id="item1"><a href="home">Home</a></li>
-            <li id="item2"><a href="about-me">About me</a></li>
-            <li id="item3"><a href="portfolio">Portfolio</a></li>
-        </ul>
+    <div id="FlexBoxContainer">
+            <a class="item" href="./index.html">Menu</a>
+            <a class="item" href="./AboutMe.html">About me</a>
+            <a class="item" href="./PortFolio.html">PortFolio</a>
+            <a class="item" href="#Contact">Contact</a>
     </div>
 </header>
 <body>
     {% block bodycontent %}{% endblock %}
 </body>
-<footer>
-    <p>Hugo Da silva - 2021</p>
-</footer>
+    <footer id="footer">
+        <div>
+            <form>
+            
+                <input placeholder="Name" type="text" id="name" name="name"><br>
+                <input placeholder="Email" type="text" id="email" name="email"><br>
+                <textarea placeholder="Message" id="message" name="message" rows="4"></textarea><br>
+                <button type="submit">Submit</button>
+    
+            </form>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quod esse quo voluptatibus, in eius numquam voluptatum consectetur, earum, ipsam quas quos libero ut rerum nisi totam repellendus perferendis ab!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quod placeat saepe a. Eius, natus velit vitae sit, et quisquam illo incidunt rerum eos eum, minus nam sunt magnam laboriosam?</p>
+            </div>
+        </div>
+
+    </footer>
 </html>
